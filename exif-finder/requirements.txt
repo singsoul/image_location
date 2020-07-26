@@ -1,0 +1,8 @@
+asks==2.3.6
+Click==7.0
+ExifRead==2.1.2
+folium==0.10.1
+termcolor==1.1.0
+trio==0.13.0
+moment==0.8.2
+progressbar33==2.4
