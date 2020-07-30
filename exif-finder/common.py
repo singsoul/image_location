@@ -140,7 +140,7 @@ def make_popup(item):
     if "date" in item:
         html += f"<center><p>{item['date']}</p></center>"
     if "path" in item:
-        html += "<img src='{}' height='240' width='240' />".format(item["path"])
+        html += "<img src='{}' height='240' width='240' />".format(item["new_path"])
     html += "".join([add_normal(_, item) for _ in cols])
     if "alt" in item and item["alt"][0] > 0.0:
         html += "<p>高度: {1} {0}米</p>".format(*item["alt"])
