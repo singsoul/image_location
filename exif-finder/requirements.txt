@@ -5,4 +5,4 @@ folium==0.10.1
 termcolor==1.1.0
 trio==0.13.0
 moment==0.8.2
-progressbar33==2.4
+progressbar2==3.47.0
